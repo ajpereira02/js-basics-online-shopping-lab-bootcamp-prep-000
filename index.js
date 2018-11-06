@@ -7,7 +7,7 @@ function getCart() {
   return cart
 }
 
-function addToCart() {
+function addToCart(item) {
   //sets price for item by generating a random number between 0 and 100.
   var price = Math.floor(Math.random() * 100)
   cart.push({[item]: price})
